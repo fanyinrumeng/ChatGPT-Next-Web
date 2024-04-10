@@ -1,5 +1,11 @@
 {
     "github": {
         "silent": true
-    }
+    },
+    "redirects": [
+        {
+            "source": "/v1/:path*",
+            "destination": "/api/openai/v1/:path*"
+        }
+    ]
 }
